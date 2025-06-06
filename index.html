@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-rows: 414px 9px 120px 20px 155px 9px 20px;
+  grid-template-columns: 320px 9px 198px 9px 153px 9px 50px;
+  gap:0px;
+  height: 748px;
+  width: 748px;
+}
+
+.item {
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background-color: #E72F24;
+}
+
+.white {
+  background-color: #F0F1EC;
+  grid-column: 3 / 8 ;
+}
+
+.wait {
+  background-color: #F0F1EC;
+  grid-column: 1/2;
+  grid-row: 3/6;
+}
+.weit {
+  background-color: #F0F1EC;
+  grid-column: 3/6;
+  grid-row: 3/6;
+}
+.blue {
+  background-color: #004592;
+}
+.waitt {
+  background-color:#F0F1EC ;
+  grid-column: 1/2;
+  grid-row: 7/8;
+}
+.yellow {
+  background-color: #F9D01E ;
+  grid-column: 3/4;
+  grid-row: 7/8;
+}
+.black {
+  background-color: #232629;
+  grid-column: 5/6;
+  grid-row: 7/8;
+}
+.blanco {
+  background-color: #F0F1EC;
+  grid-column: 7/8;
+  grid-row: 5/8;
+}
+
+
+.blackline {
+  background-color:#000000 ;
+  grid-column: 2 /3;
+  grid-row: 1/8;
+}
+
+.line {
+  background-color:#000000 ;
+  grid-column: 1/8;
+  grid-row: 2/3;
+}
+
+.blacklinee {
+  background-color:#000000 ;
+  grid-column: 6/7;
+  grid-row: 3/8;
+}
+.linea {
+  background-color:#000000 ;
+  grid-column: 7/8;
+  grid-row: 4/5;
+}
+
+.lineanegra {
+  background-color:#000000 ;
+  grid-column: 4/5;
+  grid-row: 7/8;
+}
+
+.negrita {
+  background-color:#000000 ;
+  grid-column: 1/6;
+  grid-row: 6/7;
+}
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item red"></div>
+    <div class="item white"></div>
+    <div class="item wait"></div>
+    <div class="item weit"></div>
+    <div class="item blue"></div>
+    <div class="item waitt"></div>
+    <div class="item yellow"></div>
+    <div class="item black"></div>
+    <div class="item blanco"></div>
+
+    <div class="item blackline"></div>
+    <div class="item line"></div>
+    <div class="item blacklinee"></div>
+    <div class="item linea"></div>
+    <div class="item lineanegra"></div>
+    <div class="item negrita"></div>
+
+  </div>
+</body>
+</html>
