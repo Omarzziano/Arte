@@ -108,6 +108,26 @@ body {
   grid-column: 1/6;
   grid-row: 6/7;
 }
+  .descripcion {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
     /* 
     Write your CSS here 
     Gap Colour: #000
@@ -144,5 +164,8 @@ body {
     <div class="item negrita"></div>
 
   </div>
+  <div class="descripcion">
+  Obra inspirada en <strong>Piet Mondrian</strong> – Hecho 100% con <strong>HTML</strong> y <strong>CSS</strong>.
+</div>
 </body>
 </html>
